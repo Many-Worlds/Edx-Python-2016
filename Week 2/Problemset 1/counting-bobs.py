@@ -9,4 +9,5 @@ count = 0
 for l, _ in enumerate(s):
     if s[l:l+3] == 'bob':
         count += 1
-print('Number of times bob occurs is: ' + str(count))
+print('Number of times bob occurs is: ' + str(count)
+return('This is the end of the function')
